@@ -24,6 +24,7 @@ console.log(libros[0]); // Imprima el primer libro actualizado
     { nombre: "Maria", edad: 28, promedio: 7.3 },
     { nombre: "Andres", edad: 45, promedio: 8.7 },
 ];
+console.log(estudiantes);//Imprima en consola el arreglo de estudiantes
 const edadesestudiantes=estudiantes.map(element=>element.edad); // Mapeo de las edades de los estudiantes en un nuevo arreglo
 console.log(edadesestudiantes); // Imprimir en consola el nuevo arreglo de edades de los estudiantes 
 let sumaEdades=0;
