@@ -1,0 +1,27 @@
+{
+  "name": "tarea4",
+  "version": "1.2.0",
+  "description": "Proyecto N°4 de Backend",
+  "main": "init.js",
+  "type": "module",
+  "scripts": {
+    "start": "node init.js",
+    "watch": "nodemon init.js",
+    "generate-file": "nodemon generator.js",
+    "find-even-number": "nodemon find.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Pipecanoc86"
+  },
+  "keywords": [
+    "Numeros",
+    "Pares"
+  ],
+  "author": "Felipe Cano",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
