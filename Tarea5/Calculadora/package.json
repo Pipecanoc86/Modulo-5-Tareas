@@ -1,0 +1,25 @@
+{
+  "name": "tarea5",
+  "version": "1.2.0",
+  "description": "Proyecto de Calculadora",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start":"node index.js",
+    "watch":"nodemon index.js",
+    "calculadora":"nodemon calculadora.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Pipecanoc86"
+  },
+  "keywords": [
+    "node.js",
+    "organizacion",
+    "de",
+    "archivos"
+  ],
+  "author": "Felipe Cano",
+  "license": "ISC"
+}
