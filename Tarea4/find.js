@@ -13,5 +13,3 @@ fs.readFile('numeros.txt', 'utf8', (error, data) => {
 });
 
 
-//     console.log(data.toString())
-// })
