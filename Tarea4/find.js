@@ -2,12 +2,16 @@ import fs from 'fs';
 
 fs.readFile('numeros.txt', 'utf8', (error, data) => {
   if (error) {
-    console.error('Error al leer el archivo', error);
+    console.log('Error al leer el archivo', error);
     return;
   }
 
-  const numbers = data.includes(',') ? data.split(',') : data.split('\n');
-  const evenNumbers = numbers.map(Number).filter(num => num % 2 === 0);
-  console.log("Números pares del arreglo: ",evenNumbers);
+  const numeros = data.toString().split(',').map(Number);
+  console.log("Numeros : ",numeros);
+  const numerospares = numeros.filter(num => num % 2 === 0);
+  console.log("Números pares son: ",numerospares);
 });
 
+
+//     console.log(data.toString())
+// })
