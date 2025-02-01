@@ -15,7 +15,6 @@ if (isNaN(a) || isNaN(b)) {
     console.error("Error: Ingresa dos números válidos.");
     process.exit(1);
 }
-
 const calculadora = (a, operacion, b) => {
     switch (operacion) {
         case ('+'):
