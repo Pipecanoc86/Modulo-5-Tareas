@@ -11,7 +11,7 @@ fs.writeFile('numeros.txt', arraynumeros, (error) => {
         console.log('Error al escribir el archivo:', error);
         return;
     }
-    console.log('Archivo numeros.txt generado correctamente.');
+    console.log('Archivo numeros.txt generado correctamente');
 });
 
 

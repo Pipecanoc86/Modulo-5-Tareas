@@ -1,9 +1,9 @@
 const datos = process.argv.slice(2)
 
 if(datos.length !== 3){
-    console.log("Uso: node calculadora.js <num1> <operacion> <num2>");
-    console.log("Uso: node calculadora.js <num1> <+,-,*,/> <num2>");
-    console.log("Ejemplo: node calculadora.js 5 (+,-,*,/)10")
+    console.log("Uso correcto: node calculadora.js <num1> <operacion> <num2>");
+    console.log("Uso correcto: node calculadora.js <num1> <+,-,*,/> <num2>");
+    console.log("Ejemplo: node calculadora.js 5 (+,-,*,/) 10")
     process.exit(1)
 }
 
