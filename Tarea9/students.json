@@ -1,0 +1,26 @@
+[
+  {
+    "id": 2,
+    "name": "Kathy",
+    "age": 45,
+    "major": "Singer"
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "age": 21,
+    "major": "Physics"
+  },
+  {
+    "id": 4,
+    "name": "Alice",
+    "age": 40,
+    "major": "Soccer player"
+  },
+  {
+    "id": 5,
+    "name": "Kathy",
+    "age": 40,
+    "major": "Singer"
+  }
+]

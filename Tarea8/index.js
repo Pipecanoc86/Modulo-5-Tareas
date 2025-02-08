@@ -9,7 +9,6 @@ app.use(express.json())
 
 app.get('/', (req, res) => {
     res.send('Prueba de GET sin path')
-    console.log('1) Prueba de GET sin path')
 })
 
 // GET/students, leyendo la base de datos students.json (trayendo el archivo de estudiantes) *******************************
@@ -23,7 +22,6 @@ app.get('/students', (req, res) => {
             status:200, 
             message: 'Students fetched successfully', 
             data: JSON.parse(data)}),
-            console.log('2) Prueba de GET/students')
     });
 });
 
@@ -48,7 +46,6 @@ app.get('/students/:id', (req, res) => {
             message: 'Student fetched successfully',
             data: selectedStudent
         })
-        console.log('3) Prueba de GET/students/:id')
     });
 });
 
@@ -133,10 +130,6 @@ app.delete('/students/:id', (req, res) => {
         status: 200,
         message: 'Student deleted successfully'
     })
-    console.log('4) Prueba de DELETE/students/:id')
-    console.log("5)",students)
-    console.log("6)",deleteStudent)
-})
 });
 
 //****************************************************************************************************************************

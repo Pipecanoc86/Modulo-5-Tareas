@@ -128,7 +128,7 @@ Por ejemplo en el body colocamos esto :
         }
     }
 
-### 5. Agregagar un estudiante
+### 5. Editar un estudiante
 
     PUT /students/:id , por ejemplo PUT/students/2
 
