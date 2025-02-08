@@ -1,10 +1,16 @@
 [
   {
+    "id": 1,
+    "name": "Alice",
+    "age": 20,
+    "major": "Computer Science"
+},
+{
     "id": 2,
-    "name": "Kathy",
-    "age": 45,
-    "major": "Singer"
-  },
+    "name": "Bob",
+    "age": 22,
+    "major": "Mathematics"
+},
   {
     "id": 3,
     "name": "Charlie",
@@ -13,8 +19,8 @@
   },
   {
     "id": 4,
-    "name": "Alice",
-    "age": 40,
+    "name": "Felipe",
+    "age": 38,
     "major": "Soccer player"
   },
   {
