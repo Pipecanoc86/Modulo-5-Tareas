@@ -50,7 +50,7 @@ Ejecutar en el postman la siguiente url:  http://localhost:3002 y ahi probamos l
 
     GET /students
 
-**Respuesta exitosa:** 
+**Respuesta:** 
 
     {
         "status": 200,
@@ -82,7 +82,7 @@ Ejecutar en el postman la siguiente url:  http://localhost:3002 y ahi probamos l
 
     GET /students/:id , por ejemplo GET/students/2
 
- **Respuesta exitosa:**
+ **Respuesta:**
 
     {
         "status": 200,
@@ -107,7 +107,7 @@ Ejecutar en el postman la siguiente url:  http://localhost:3002 y ahi probamos l
 
     DELETE /students/:id , por ejemplo DELELE/students/2
 
- **Respuesta exitosa:**
+ **Respuesta:**
     
     {
         "status": 200,

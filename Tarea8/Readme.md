@@ -50,7 +50,7 @@ Ejecutar en el postman la siguiente url:  http://localhost:3002 y ahi probamos l
 
     GET /students
 
-**Respuesta exitosa:** 
+**Respuesta:** 
 
     {
         "status": 200,
@@ -82,7 +82,7 @@ Ejecutar en el postman la siguiente url:  http://localhost:3002 y ahi probamos l
 
     GET /students/:id , por ejemplo GET/students/2
 
- **Respuesta exitosa:**
+ **Respuesta:**
 
     {
         "status": 200,
@@ -115,7 +115,7 @@ Por ejemplo en el body colocamos esto :
         "major": "Soccer player"
     }
  
-**Respuesta exitosa:**
+**Respuesta:**
 
     {
         "status": 201,
@@ -141,7 +141,7 @@ Por ejemplo en el body colocamos esto :
         "major": "Singer"
     }
  
-**Respuesta exitosa:**
+**Respuesta:**
 
     {
     "status": 200,
@@ -158,7 +158,7 @@ Por ejemplo en el body colocamos esto :
 
     DELETE /students/:id , por ejemplo DELELE/students/2
 
- **Respuesta exitosa:**
+ **Respuesta:**
     
     {
         "status": 200,
