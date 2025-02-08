@@ -1,4 +1,4 @@
-### MANEJO DE METODOS (GET,DELETE) EN LA CREACION DE APIS (Tarea 6)
+### MANEJO DE METODOS (GET,POST) EN LA CREACION DE APIS (Tarea 6)
 ## Descripción
 
 Este programa crea un servidor HTTP en Node.js sin usar Express. Permite realizar operaciones CRUD básicas en una lista de productos, específicamente:
