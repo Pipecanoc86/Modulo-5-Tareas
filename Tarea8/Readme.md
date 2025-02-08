@@ -1,4 +1,4 @@
-# Creacion de API Students
+# Creacion de API Students (Tarea 8)
 
 Este proyecto vamos a crear un API  simple construida con Node.js y Express que gestiona un registro de estudiantes almacenado en un archivo JSON como base de datos.
 
@@ -149,7 +149,7 @@ Por ejemplo en el body colocamos esto :
     "data": {
         "id": 2,
         "name": "Kathy",
-        "age": 45,
+        "age": 40,
         "major": "Singer"
     }
 }
@@ -164,9 +164,6 @@ Por ejemplo en el body colocamos esto :
         "status": 200,
         "message": "Student deleted successfully"
     }
-        
-        
-    
 
  **Si el estudiante no existe:**
 
