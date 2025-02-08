@@ -25,9 +25,9 @@ node index.js
 
  * #### Obtener un producto por ID
 
-        Realiza una solicitud GET a:   http://localhost:3002/products/:id
+        Realiza una solicitud GET a:   http://localhost:3002/products/id
 
-        Ejemplo para obtener el producto con ID 2:   http://localhost:3002/products/2
+        Ejemplo para obtener el producto con id=2:   http://localhost:3002/products/2
 
 * #### Agregar un nuevo producto
 

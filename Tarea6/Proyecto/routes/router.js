@@ -34,9 +34,9 @@ let body='';
                     console.log("4",productoSeleccionado)
                 }
                 if (method === 'POST' && 'add') {
-                            const newProduct = JSON.parse(body);
+                            let newProduct = JSON.parse(body);
                             const newId = products.length+1;
-                            newProduct.id = newId;
+                            newProduct = {id: newId, ...newProduct};
                             products.push(newProduct);
                             res.writeHead(201,{ 'Content-Type': 'application/json' });
                             res.end(`Producto Agregado: ${JSON.stringify(newProduct)}`);
@@ -65,8 +65,6 @@ let body='';
             res.writeHead(500)
             res.end('No encontramos esa ruta') 
         }
-        
-
     })
 }
 
