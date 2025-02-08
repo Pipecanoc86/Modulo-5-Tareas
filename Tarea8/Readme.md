@@ -101,7 +101,7 @@ Ejecutar en el postman la siguiente url:  http://localhost:3002 y ahi probamos l
         "message": "Student not found"
     }
 
-### 4. Agregagar un estudiante
+### 4. Agregar un estudiante
 
     POST /students
 
